@@ -1,0 +1,22 @@
+a, h1, h2 {
+    color: #7bbabb;
+    font-family: 'Arvo', serif;
+    background-color: transparent;
+}
+
+nav a {
+    color: #cca08b;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+
+h3 {
+    color: #cca08b;
+    font-family: 'Krub', sans-serif;
+}
+
+.margin-top {
+    margin-top: 30px;
+}

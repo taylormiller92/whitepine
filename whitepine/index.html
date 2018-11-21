@@ -7,10 +7,82 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
 
     <title>White Pine National Park</title>
 </head>
 <body>
-<h1>White Pine National Park</h1>
+
+<!-- NAV -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <!-- Just an image -->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo1.png" width="100" height="100" alt="logo" class="img-fluid">
+        </a>
+    </nav>
+
+    <a class="navbar-brand" href="#">White Pine National Park</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Explore</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Things to Do
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Get Involved</a>
+            </li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Visit</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
+<!-- MAIN -->
+<main>
+<img src="images/woods.png" class="img-fluid" alt="woods">
+
+<div class="container-fluid margin-top">
+    <div class="row">
+        <div class="col-6">
+            <h3>Experience The Park</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra massa massa ultricies mi quis  hendrerit dolor magna. Tortor pretium viverra suspendisse potenti nullam ac tortor. Venenatis urna cursus eget nunc scelerisque viverra. Fusce ut placerat orci nulla. Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc. Nisl vel pretium lectus quam id leo. Consequat ac felis donec et. Leo duis ut diam quam nulla porttitor massa. Rhoncus mattis rhoncus urna neque. Id diam maecenas ultricies mi eget.</p>
+        </div>
+
+        <div class="col-6">
+            <img src="images/animals1.png" class="img-fluid float-right" alt="animals">
+        </div>
+    </div>
+
+</div>
+
+</main>
+<!-- FOOTER -->
+<footer class="container-fluid">
+    <p>White Pine National Park</p>
+    <p>Taylor Miller 2018</p>
+    <p>MCTC Webi 2023</p>
+</footer>
 </body>
 </html>
