@@ -1,14 +1,19 @@
-a, h1, h2 {
+a, h1, h2, h3, h4 {
     color: #7bbabb;
     font-family: 'Arvo', serif;
+    font-weight: bold;
     background-color: transparent;
 }
 
 nav a {
-    color: #cca08b;
+    color: #7bbabb;
     font-family: 'Arvo', serif;
     font-weight: bold;
     background-color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #7bbabb;
 }
 
 
@@ -23,4 +28,12 @@ h3 {
 
 .mynav {
     background-color: transparent;
+}
+
+.jumbotron-fluid {
+    width: 100%;
+}
+
+footer {
+    background-color: #cca08b;
 }
