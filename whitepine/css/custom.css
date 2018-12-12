@@ -1,12 +1,16 @@
 .container-fluid {
     padding-left: 0 !important;
     padding-right: 0 !important;
+    background-color: #504843;
 
+}
+
+#cards {
+    padding: 50px;
 }
 
 .bg-img-1 {
 
-    background-image: url("../images/woodslogo.jpg");
     min-height: 480px;
     position: initial;
     top: 50px;
@@ -42,20 +46,23 @@
     background-size: cover;
 }
 
-
 .logo {
     position: absolute;
     left: 32%;
     top: 15%;
 }
 
-a i {
+a i, nav a i {
     color: white;
     width: 20%;
 }
 
 a i:hover {
-    color: #dbdbdb;
+    color: #dbdbdb!important;
+}
+
+.navbar-brand {
+    color: white!important;
 }
 
 .caption {
@@ -73,7 +80,7 @@ a, h1, h2 {
 }
 
 nav a {
-    color: #7bbabb;
+    color: #7bbabb!important;
     font-family: 'Arvo', serif;
     font-weight: bold;
     background-color: transparent;
@@ -258,7 +265,7 @@ nav a {
 }
 
 
-h3, h4, h5 {
+h3, h4, h5, h6 {
     color: #cca08b;
     font-family: 'Krub', sans-serif;
 }
@@ -267,9 +274,21 @@ h5 b {
     color: black;
 }
 
-h6 {
+h6, {
     color: #333333;
     font-family: 'Roboto Slab', serif;
+}
+
+#reserve {
+    height: 200px;
+    top: 50%;
+    left: 50%;
+
+}
+
+#contact, #news {
+    padding: 50px;
+    background-color: #dbdbdb;
 }
 
 #donate {
@@ -283,7 +302,7 @@ h6 {
 }
 
 .btn-info {
-    width: 300px;
+    width: 250px;
     height: 150px;
 }
 
