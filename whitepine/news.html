@@ -33,7 +33,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link disabled dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Explore
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -44,15 +44,8 @@
                             <a class="dropdown-item" href="#">Gallery</a>
                         </div>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="sights.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Things to Do
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Camping</a>
-                            <a class="dropdown-item" href="#">Hiking & Trails</a>
-                            <a class="dropdown-item" href="#">Canoeing & Kayaking</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sights.html">Things to Do</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="index.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -60,10 +53,10 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="news.html">News & Alerts</a>
-                            <a class="dropdown-item" href="#">Events</a>
-                            <a class="dropdown-item" href="#">Maps</a>
-                            <a class="dropdown-item" href="#">Safety</a>
-                            <a class="dropdown-item" href="#">FAQ</a>
+                            <a class="dropdown-item disabled" href="#">Events</a>
+                            <a class="dropdown-item disabled" href="#">Maps</a>
+                            <a class="dropdown-item disabled" href="#">Safety</a>
+                            <a class="dropdown-item disabled" href="#">FAQ</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -80,11 +73,29 @@
             </div>
         </nav>
 
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Weather Alert:</strong> Thunderstorm warning issued for the area for the next 24 hours.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
         <div class="container" id="news">
             <div class="col-12">
 
-                <h1>News</h1>
-                    <h6>White Pine has been a prime location for individuals and families seeking the great outdoors. Going on for miles, White Pine has many things to do. You can go hiking on one of our many trails, as well as kayaking or canoeing down the river. There are many animals to see as well. Deer and Bears are known to be in the area. Be wary when crossing paths with these animals, as they are not to be disturbed in their natural habitat.</h6>
+                <img src="images/bearsbig.jpg" class="img-fluid" alt="Bears">
+
+                <h1>Latest News</h1><br>
+                    <h3>Recent Bear Sighting</h3>
+                    <h6>December 7th, 2018</h6>
+                    <p>White Pine has been a prime location for individuals and families seeking the great outdoors. Going on for miles, White Pine has many activities. You can go hiking on one of our many trails, as well as kayaking or canoeing down the river. There are many animals to see as well. Bears are known to be in the area. Be wary when crossing paths with these animals, as they are not to be disturbed in their natural habitat. Recently, a family of Black Bears were spotted. Please see our FAQ on how to deal with these encounters.</p>
+
+                <h1>Alerts</h1>
+                    <h3>Weekly Weather</h3>
+                    <h6>December 9th, 2018</h6>
+                    <p>Please be advised that the park is under a severe weather alert for the next few days.</p>
+
+
             </div>
 
         </div>

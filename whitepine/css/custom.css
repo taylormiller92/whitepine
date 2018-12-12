@@ -80,7 +80,7 @@ a, h1, h2 {
 }
 
 nav a {
-    color: #7bbabb!important;
+    color: #7bbabb;
     font-family: 'Arvo', serif;
     font-weight: bold;
     background-color: transparent;
@@ -99,16 +99,16 @@ nav a {
     margin-right: 20px;
 }
 
-h3, h4, h5, h6 {
+h3, h4, h5, form label {
     color: #cca08b;
     font-family: 'Krub', sans-serif;
 }
 
-h5 b {
-    color: black;
+h5 b, h6 {
+    color: #504843;
 }
 
-h6, {
+p {
     color: #333333;
     font-family: 'Roboto Slab', serif;
 }
@@ -127,10 +127,20 @@ h6, {
     padding: 50px;
 }
 
+#things {
+    text-align: center;
+}
+
+#sights {
+    padding: 50px;
+    background-color: #dbdbdb;
+}
+
 .btn-info {
     width: 250px;
     height: 150px;
 }
+
 
 .navbar-light .navbar-nav .nav-link:hover, .dropdown-toggle:hover {
     color: #cca08b;
